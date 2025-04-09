@@ -1,0 +1,53 @@
+
+class AssetsManger {
+  static const String base = "assets/images";
+  static const String quranBGImage = "$base/Background.png";
+  static const String hadithBGImage = "$base/hadith_background.png";
+  static const String hadithIcon = "$base/hadith_icon.png";
+  static const String quranIcon = "$base/quran_icon.png";
+  static const String radioIcon = "$base/radio_icon.png";
+  static const String radioBGImage = "$base/radoi_background.png";
+  static const String sebhaIcon = "$base/sebha_icon.png";
+  static const String sebhaBGImage = "$base/sebhaBackground.png";
+  static const String splashScreen = "$base/splash_screen.png";
+  static const String timeBGImage = "$base/time_background.png";
+  static const String timeIcon = "$base/time_icon.png";
+  static const String islamiLogo = "$base/islami_logo.png";
+  static const String quranPattern = "$base/quran_details_pattern.png";
+  static const String suraNumberDesigne = "$base/suraNumberDesign.png";
+  static const String mostaRecentImage = "$base/mostRecentImage.png";
+  static const String quranDetailsPatternLeft = "$base/quran_details_pattern.png";
+  static const String quranDetailsPatternRight = "$base/quranDetailsPatternRight.png";
+  static const String onBoardingWelcome = "$base/onBoardingWelcome.png";
+  static const String onBoardingYarb = "$base/onBoardingYarb.png";
+  static const String onBoardingQuran = "$base/onBoardingQuran.png";
+  static const String onBoardingMosque = "$base/onBoardingMosque.png";
+  static const String onBoardingMic = "$base/onBoardingMic.png";
+  static const String hadithMosque = "$base/hadithMosque.png";
+  static const String hadithCardBackGround = "$base/HadithCardBackGround.png";
+  static const String hadethTapDesigneRight = "$base/hadethTapDesigne.png";
+  static const String hadethTapDesigneLeft = "$base/hadethTapDesigneLeft.png";
+  static const String sebha = "$base/sebha.png";
+  static const String radioContainerMosque = "$base/radioContainerMosque.png";
+  static const String containerRadioVolume = "$base/containerRadioVolume.png";
+  static const String prayTimeRect = "$base/prayTimeRect.png";
+  static const String image1 = "$base/image1.png";
+  static const String image2 = "$base/image2.png";
+  static const String image3 = "$base/image3.png";
+  static const String image4 = "$base/image4.png";
+  static const String image5 = "$base/image5.png";
+  static const String image6 = "$base/image6.png";
+  static const String image7 = "$base/image7.png";
+  static const String image8 = "$base/image8.png";
+  static const String image9 = "$base/image9.png";
+  static const String image10 = "$base/image10.png";
+  static const String image11 = "$base/image11.png";
+  static const String image12 = "$base/image12.png";
+  static const String image13 = "$base/image13.png";
+  static const String image14 = "$base/image14.png";
+  static const String image15 = "$base/image15.png";
+  static const String image16 = "$base/image16.png";
+  static const String image17 = "$base/image17.png";
+  static const String image18 = "$base/image18.png";
+
+}
