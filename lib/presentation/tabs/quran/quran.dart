@@ -3,8 +3,8 @@ import 'package:islami/core/colors_manger.dart';
 import 'package:islami/core/routes/app_routes.dart';
 import 'package:islami/presentation/tabs/quran/quran_resourses.dart';
 import 'package:islami/presentation/tabs/quran/sura_list_designe.dart';
+
 import '../../../core/assets_manger.dart';
-import 'most_recent_sura.dart';
 
 class Quran extends StatefulWidget {
   const Quran({super.key});
@@ -25,7 +25,7 @@ class _QuranState extends State<Quran> {
     return Expanded(
       child: SingleChildScrollView(
         child: Container(
-          margin: EdgeInsets.symmetric(horizontal: heightQuery * 0.025),
+          margin: EdgeInsets.symmetric(horizontal: heightQuery * 0.02),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
@@ -54,29 +54,6 @@ class _QuranState extends State<Quran> {
                 ),
                 SizedBox(height: heightQuery * 0.01),
                 Text(
-                  "Most Recently",
-                  style: TextStyle(
-                    color: ColorsManger.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 15,
-                  ),
-                ),
-                SizedBox(height: heightQuery * 0.01),
-                SizedBox(
-                  height: heightQuery * 0.2,
-                  child: ListView.separated(
-                    scrollDirection: Axis.horizontal,
-                    itemBuilder: (context, index) {
-                      return MostRecentSura();
-                    },
-                    separatorBuilder: (context, index) {
-                      return SizedBox(width: widthQuery * 0.01);
-                    },
-                    itemCount: 7,
-                  ),
-                ),
-                SizedBox(height: heightQuery * 0.01),
-                Text(
                   "Suras List",
                   style: TextStyle(
                     color: ColorsManger.white,
@@ -86,7 +63,7 @@ class _QuranState extends State<Quran> {
                 ),
                 SizedBox(height: heightQuery * 0.01),
                 SizedBox(
-                  height: heightQuery * 0.28,
+                  height: heightQuery * 0.6,
                   child: ListView.separated(
                     padding: EdgeInsets.zero,
                     itemBuilder:
